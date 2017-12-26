@@ -7,14 +7,15 @@ Forms can resemble paper or database forms because web users fill out the forms 
 
 
 Forms can be made up of standard graphical user interface elements:
-*text — a simple text box that allows input of a single line of text.
-*password — similar to text, it is used for security purposes, in which the characters typed in are invisible or replaced by symbols such as *)
-*radio — a radio button
-*file — a file select control for uploading a file
-*reset — a reset button that, when activated, tells the browser to restore the values to their initial values.
-*submit — a button that tells the browser to take action on the form (typically to send it to a server)
-*textarea — much like the text input field except a textarea allows for multiple rows of data to be shown and entered
-*select — a drop-down list that displays a list of items a user can select from
+
+* text — a simple text box that allows input of a single line of text.
+* password — similar to text, it is used for security purposes, in which the characters typed in are invisible or replaced by symbols such as *)
+* radio — a radio button
+* file — a file select control for uploading a file
+* reset — a reset button that, when activated, tells the browser to restore the values to their initial values.
+* submit — a button that tells the browser to take action on the form (typically to send it to a server)
+* textarea — much like the text input field except a textarea allows for multiple rows of data to be shown and entered
+* select — a drop-down list that displays a list of items a user can select from
 
 When data that has been entered into HTML forms is submitted, the names and values in the form elements are encoded and sent to the server in an **HTTP** request message using **GET** or **POST**.
 
